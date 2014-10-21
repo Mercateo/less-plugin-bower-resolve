@@ -1,0 +1,7 @@
+# ignored recursively
+.DS_Store
+.idea
+*.log
+node_modules/
+.tmp
+*~

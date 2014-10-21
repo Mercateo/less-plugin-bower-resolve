@@ -1,0 +1,54 @@
+{
+  "name": "less-plugin-bower-resolve",
+  "version": "0.1.0",
+  "description": "Import Less files from Bower packages",
+  "homepage": "https://github.com/Mercateo/less-plugin-bower-resolve",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mercateo/less-plugin-bower-resolve.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mercateo/less-plugin-bower-resolve/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/Mercateo/less-plugin-bower-resolve/blob/master/LICENSE.md"
+    }
+  ],
+  "author": {
+    "name": "Mercateo",
+    "url": "https://github.com/Mercateo"
+  },
+  "contributors": [
+    {
+      "name": "Donald Pipowitch",
+      "url": "https://github.com/donaldpipowitch"
+    }
+  ],
+  "engines": {
+    "node": ">=0.4.2"
+  },
+  "scripts": {
+    "test": "jscs lib/ test/ && jshint lib/ test/ && mocha"
+  },
+  "keywords": [
+    "less plugins",
+    "less",
+    "bower",
+    "bower import",
+    "bower resolve"
+  ],
+  "devDependencies": {
+    "jscs": "^1.7.3",
+    "jshint": "^2.5.6",
+    "less": "^2.0.0-b2",
+    "mocha": "^1.21.5"
+  },
+  "dependencies": {
+    "bower-config": "^0.5.2",
+    "bower-json": "^0.4.0",
+    "promise": "^6.0.1"
+  }
+}
