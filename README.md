@@ -1,3 +1,5 @@
+This project is unmantained, deprecated and goes into archive with followup removal in 2 years.
+
 # less-plugin-bower-resolve
 
 > Import [Less](http://lesscss.org) files from [Bower](http://bower.io) packages
